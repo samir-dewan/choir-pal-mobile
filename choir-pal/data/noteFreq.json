@@ -3,62 +3,62 @@
       "octave": 4,
       "notes": [
         {
-          "name": "C",
+          "label": "C",
           "frequency": 261.63,
           "isWhite": true
         },
         {
-          "name": "C#",
+          "label": "C#",
           "frequency": 277.18,
           "isWhite": false
         },
         {
-          "name": "D",
+          "label": "D",
           "frequency": 293.66,
           "isWhite": true
         },
         {
-          "name": "D#",
+          "label": "D#",
           "frequency": 311.13,
           "isWhite": false
         },
         {
-          "name": "E",
+          "label": "E",
           "frequency": 329.63,
           "isWhite": true
         },
         {
-          "name": "F",
+          "label": "F",
           "frequency": 349.23,
           "isWhite": true
         },
         {
-          "name": "F#",
+          "label": "F#",
           "frequency": 369.99,
           "isWhite": false
         },
         {
-          "name": "G",
+          "label": "G",
           "frequency": 392.00,
           "isWhite": true
         },
         {
-          "name": "G#",
+          "label": "G#",
           "frequency": 415.30,
           "isWhite": false
         },
         {
-          "name": "A",
+          "label": "A",
           "frequency": 440.00,
           "isWhite": true
         },
         {
-          "name": "A#",
+          "label": "A#",
           "frequency": 466.16,
           "isWhite": false
         },
         {
-          "name": "B",
+          "label": "B",
           "frequency": 493.88,
           "isWhite": true
         }
