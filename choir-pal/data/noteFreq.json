@@ -1,0 +1,74 @@
+[
+    {
+      "Name": "C4",
+      "Octave": 4,
+      "Frequency": 261.63,
+      "isWhite": true
+    },
+    {
+      "Name": "C#4",
+      "Octave": 4,
+      "Frequency": 277.18,
+      "isWhite": false
+    },
+    {
+      "Name": "D4",
+      "Octave": 4,
+      "Frequency": 293.66,
+      "isWhite": true
+    },
+    {
+      "Name": "D#4",
+      "Octave": 4,
+      "Frequency": 311.13,
+      "isWhite": false
+    },
+    {
+      "Name": "E4",
+      "Octave": 4,
+      "Frequency": 329.63,
+      "isWhite": true
+    },
+    {
+      "Name": "F4",
+      "Octave": 4,
+      "Frequency": 349.23,
+      "isWhite": true
+    },
+    {
+      "Name": "F#4",
+      "Octave": 4,
+      "Frequency": 369.99,
+      "isWhite": false
+    },
+    {
+      "Name": "G4",
+      "Octave": 4,
+      "Frequency": 392.00,
+      "isWhite": true
+    },
+    {
+      "Name": "G#4",
+      "Octave": 4,
+      "Frequency": 415.30,
+      "isWhite": false
+    },
+    {
+      "Name": "A4",
+      "Octave": 4,
+      "Frequency": 440.00,
+      "isWhite": true
+    },
+    {
+      "Name": "A#4",
+      "Octave": 4,
+      "Frequency": 466.16,
+      "isWhite": false
+    },
+    {
+      "Name": "B4",
+      "Octave": 4,
+      "Frequency": 493.88,
+      "isWhite": true
+    }
+  ]
