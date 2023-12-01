@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View, Linking, StyleSheet } from 'react-native';
+import { Button, StyleSheet, Text, View, Linking } from 'react-native';
 import Link from './components/Link/Link';
 
 export default function App() {
@@ -26,6 +26,5 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
   },
 });
