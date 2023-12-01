@@ -1,74 +1,67 @@
 [
     {
-      "Name": "C4",
-      "Octave": 4,
-      "Frequency": 261.63,
-      "isWhite": true
-    },
-    {
-      "Name": "C#4",
-      "Octave": 4,
-      "Frequency": 277.18,
-      "isWhite": false
-    },
-    {
-      "Name": "D4",
-      "Octave": 4,
-      "Frequency": 293.66,
-      "isWhite": true
-    },
-    {
-      "Name": "D#4",
-      "Octave": 4,
-      "Frequency": 311.13,
-      "isWhite": false
-    },
-    {
-      "Name": "E4",
-      "Octave": 4,
-      "Frequency": 329.63,
-      "isWhite": true
-    },
-    {
-      "Name": "F4",
-      "Octave": 4,
-      "Frequency": 349.23,
-      "isWhite": true
-    },
-    {
-      "Name": "F#4",
-      "Octave": 4,
-      "Frequency": 369.99,
-      "isWhite": false
-    },
-    {
-      "Name": "G4",
-      "Octave": 4,
-      "Frequency": 392.00,
-      "isWhite": true
-    },
-    {
-      "Name": "G#4",
-      "Octave": 4,
-      "Frequency": 415.30,
-      "isWhite": false
-    },
-    {
-      "Name": "A4",
-      "Octave": 4,
-      "Frequency": 440.00,
-      "isWhite": true
-    },
-    {
-      "Name": "A#4",
-      "Octave": 4,
-      "Frequency": 466.16,
-      "isWhite": false
-    },
-    {
-      "Name": "B4",
-      "Octave": 4,
-      "Frequency": 493.88,
-      "isWhite": true
+      "octave": 4,
+      "notes": [
+        {
+          "name": "C",
+          "frequency": 261.63,
+          "isWhite": true
+        },
+        {
+          "name": "C#",
+          "frequency": 277.18,
+          "isWhite": false
+        },
+        {
+          "name": "D",
+          "frequency": 293.66,
+          "isWhite": true
+        },
+        {
+          "name": "D#",
+          "frequency": 311.13,
+          "isWhite": false
+        },
+        {
+          "name": "E",
+          "frequency": 329.63,
+          "isWhite": true
+        },
+        {
+          "name": "F",
+          "frequency": 349.23,
+          "isWhite": true
+        },
+        {
+          "name": "F#",
+          "frequency": 369.99,
+          "isWhite": false
+        },
+        {
+          "name": "G",
+          "frequency": 392.00,
+          "isWhite": true
+        },
+        {
+          "name": "G#",
+          "frequency": 415.30,
+          "isWhite": false
+        },
+        {
+          "name": "A",
+          "frequency": 440.00,
+          "isWhite": true
+        },
+        {
+          "name": "A#",
+          "frequency": 466.16,
+          "isWhite": false
+        },
+        {
+          "name": "B",
+          "frequency": 493.88,
+          "isWhite": true
+        }
+      ]
     }
   ]
