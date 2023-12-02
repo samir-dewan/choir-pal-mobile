@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Pressable, View, Text, StyleSheet } from "react-native";
 
 export type KeyProps = {
@@ -7,11 +7,12 @@ export type KeyProps = {
 };
 
 const Key: React.FC<KeyProps> = ({ label, isWhite }) => {
+
   const handlePress = () => {
     console.log(label);
   };
 
-  let keyStyle = () => {
+  let keyStyle = () => { //E and F are whiteonwhite so have different styling.
     switch (label) {
         case "E":
             return styles.noMarginRight;
@@ -23,7 +24,7 @@ const Key: React.FC<KeyProps> = ({ label, isWhite }) => {
   }
   return (
     <View style={keyStyle()}>
-      <Pressable onPress={handlePress}>
+      <Pressable style={({pressed}) => [styles.buttonContainer, (pressed && isWhite) && styles.whitePressed, (pressed && !isWhite) && styles.blackPressed]} onPress={handlePress}>
         <Text style={isWhite ? styles.whiteKeyText : styles.blackKeyText}>
           {label}
         </Text>
@@ -33,11 +34,15 @@ const Key: React.FC<KeyProps> = ({ label, isWhite }) => {
 };
 
 const styles = StyleSheet.create({
+    buttonContainer: {
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "flex-end",
+        alignItems: "center"
+    },
   whiteKeyContainer: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    alignItems: "center",
     backgroundColor: "#fff",
     width: "14%",
     height: "100%",
@@ -88,12 +93,9 @@ const styles = StyleSheet.create({
   whiteKeyText: {
     color: "#000000",
     zIndex: 1,
+    alignSelf: "center",
   },
   blackKeyContainer: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    alignItems: "center",
     backgroundColor: "#000000",
     height: "66%",
     width: "9%",
@@ -103,6 +105,12 @@ const styles = StyleSheet.create({
     color: "#fff",
     zIndex: 2,
   },
+  whitePressed: {
+    backgroundColor: "#b3c0ba",
+  },
+  blackPressed: {
+    backgroundColor: "#434343"
+  }
 });
 
 export default Key;
