@@ -9,7 +9,7 @@ const Piano: React.FC = () => {
       {noteFreq.map((oct) => (
         <View key={oct.octave} style={styles.octaveContainer}>
           {oct.notes.map((note) => (
-            <Key key={note.frequency} label={note.label} isWhite={note.isWhite}/>
+            <Key key={note.frequency} label={note.label} isWhite={note.isWhite} frequency={note.frequency}/>
           ))}
         </View>
       ))}
